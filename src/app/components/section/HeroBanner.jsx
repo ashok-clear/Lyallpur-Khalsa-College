@@ -5,14 +5,15 @@ import { motion } from "framer-motion";
 
 export default function HeroBanner() {
   return (
-    <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white py-12 sm:py-16 lg:py-20">
+    <section className="bg-[#0676BD] text-white py-12 sm:py-16 lg:py-20 overflow-hidden">
+      
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
           {/* Left Column - Content */}
           <div className="flex-1 lg:flex-basis-1/2 text-center lg:text-left">
             <div className="max-w-2xl mx-auto lg:mx-0">
               {/* Badge */}
-              <div className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-700 text-blue-100 mb-6">
+              <div className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-white text-[#0676BD] mb-6">
                 <span className="w-2 h-2 bg-blue-300 rounded-full mr-2"></span>
                 Est. 1950 • Premier Education Institution
               </div>
@@ -36,9 +37,9 @@ export default function HeroBanner() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Link
                   href="/admissions"
-                  className="inline-flex items-center justify-center px-6 py-3 sm:px-8 sm:py-4 bg-yellow-500 hover:bg-yellow-600 text-blue-900 font-semibold rounded-lg transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                  className="inline-flex items-center justify-center px-6 py-3 sm:px-8 sm:py-4 bg-yellow-500 hover:bg-white text-blue-900 font-semibold rounded-lg transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
-                  Apply Now
+                  Admission Now
                   <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                   </svg>
@@ -55,7 +56,7 @@ export default function HeroBanner() {
               </div>
 
               {/* Stats */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mt-12 pt-8 border-t border-blue-700">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mt-12 pt-8 border-t border-white">
                 <div className="text-center">
                   <div className="text-2xl sm:text-3xl font-bold text-yellow-400 mb-1">15K+</div>
                   <div className="text-sm text-blue-200">Students</div>

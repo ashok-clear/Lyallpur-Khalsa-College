@@ -9,7 +9,7 @@ export default function Footer() {
                     {/* College Info */}
                     <div className="sm:col-span-2 lg:col-span-2">
                         <div className="flex flex-col sm:flex-row sm:items-center mb-4 sm:mb-6">
-                            <div className="max-w-[200px]">
+                            <div className="max-w-[65px]  lg:max-w-[200px]">
                                 <Image src="/Images/logo.png" alt="College-logo" width={235} height={48} className='w-full h-full object-cover' />
                             </div>
                             <div className="min-w-0">
